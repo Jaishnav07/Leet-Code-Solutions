@@ -62,42 +62,5 @@ int checkYear(int n) {
 }
 ```
 
-#### Solution 2 (C)
-
-- **Submitted:** 2026-10-17 13:33:11
-- **Status:** Correct
-- **Marks:** 0
-
-```c
-int checkYear(int n) {
-    
-    if(n%400==0)
-    return 1;
-        
-    else if(n%4==0 && n%100!=0)
-    return 1;
-    else
-    return 0;
-}
-```
-
-#### Solution 3 (C)
-
-- **Submitted:** 2026-09-30 17:20:50
-- **Status:** Correct
-- **Marks:** 1
-
-```c
-int checkYear(int n) {
-    
-    if(n%400==0)
-    return 1;
-        
-    else if(n%4==0 && n%100!=0)
-    return 1;
-    else
-    return 0;
-}
-```
 
 *Generated on: 10/17/2026, 1:41:46 PM*
